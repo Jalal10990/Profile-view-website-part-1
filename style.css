@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 5px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    background: black;
+    
+}
+.hero{
+  
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position:relative
+}
+nav{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    padding: 20px 8px;
+   
+}
+nav .menu-img{
+    
+    padding: 15px;
+    
+    width: 55px;
+   
+    
+    margin-right:20px;
+    cursor: pointer;
+}
+
+nav.logo{
+    
+    cursor: pointer;
+   
+} 
+.logo{
+    width: 210px;
+}
+nav ul{
+    
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+     display: inline-block; 
+     list-style: none;
+     margin : 0 20px;  
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    color: black;
+    background-color: gold;
+    border-radius: 22px;
+    border: 2px solid white;
+    position: relative;
+    left: -280px;
+    font-size: 22px;
+}
+
+button span{
+    
+   height: 21px;
+    display: block;
+    background: #999;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 2px;
+} */
+.lamp{
+    
+    position: relative;
+    width: 2px;
+    /* top: -100vh; */
+    top: -90vh;
+    left: 50vh;
+}
+.lamp img{
+    width: 235px;
+}
+.personalData{
+    font-size: 25px;
+   
+    /* font-style: italic; */
+    color: #fff;
+    margin-top: -18%;
+    margin-left: 5%;
+}
+.personalData h1{
+     font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.personalData h1 a{
+    padding: 10px
+}
+.profilePic img{
+    width: 45vh;
+    position: relative;
+    left: 117vh;
+}
+
